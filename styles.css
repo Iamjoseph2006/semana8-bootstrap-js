@@ -26,12 +26,22 @@ body {
   margin-bottom: 20px;
 }
 
-/* Altura del carrusel */
+/* Tamaño general del carrusel para pantallas grandes (PC) */
 .carousel,
 .carousel-inner,
 .carousel-item {
-  height: 310px;
+  height: 400px;
 }
+
+/* Tamaño del carrusel en celulares (menos de 768px de ancho) */
+@media (max-width: 767px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-item {
+    height: 250px;
+  }
+}
+
 
 /* Imagen estirada completamente */
 .carousel-item img {
