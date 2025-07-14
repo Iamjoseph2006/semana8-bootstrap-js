@@ -21,7 +21,7 @@ document.getElementById("formularioContacto").addEventListener("submit", functio
   });
 
   if (esValido) {
-    alert("¡Gracias por tu mensaje! Te contactaremos pronto.");
+    alert("¡Gracias por tu mensaje! \nTe contactaremos pronto.");
     this.reset();
   }
 });
